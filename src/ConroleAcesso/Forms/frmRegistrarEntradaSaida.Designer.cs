@@ -62,7 +62,7 @@ namespace ConroleAcesso.Forms
             this.groupBox1.Controls.Add(this.lblNomeNave);
             this.groupBox1.Location = new System.Drawing.Point(12, 52);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(325, 125);
+            this.groupBox1.Size = new System.Drawing.Size(343, 157);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Nave";
@@ -129,9 +129,9 @@ namespace ConroleAcesso.Forms
             this.groupBox2.Controls.Add(this.lblAnoNacimento);
             this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Controls.Add(this.lblNomePiloto);
-            this.groupBox2.Location = new System.Drawing.Point(343, 52);
+            this.groupBox2.Location = new System.Drawing.Point(380, 52);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(325, 125);
+            this.groupBox2.Size = new System.Drawing.Size(341, 157);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Piloto";
@@ -192,11 +192,11 @@ namespace ConroleAcesso.Forms
             // 
             // btnRegistrar
             // 
-            this.btnRegistrar.Location = new System.Drawing.Point(578, 23);
+            this.btnRegistrar.Location = new System.Drawing.Point(646, 23);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(75, 23);
             this.btnRegistrar.TabIndex = 2;
-            this.btnRegistrar.Text = "button1";
+            this.btnRegistrar.Text = "Registrar";
             this.btnRegistrar.UseVisualStyleBackColor = true;
             this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
@@ -205,7 +205,7 @@ namespace ConroleAcesso.Forms
             this.groupBox3.Controls.Add(this.lvAlertas);
             this.groupBox3.Location = new System.Drawing.Point(12, 215);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(656, 223);
+            this.groupBox3.Size = new System.Drawing.Size(709, 333);
             this.groupBox3.TabIndex = 3;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Alertas";
@@ -220,7 +220,7 @@ namespace ConroleAcesso.Forms
             this.lvAlertas.LabelWrap = false;
             this.lvAlertas.Location = new System.Drawing.Point(3, 19);
             this.lvAlertas.Name = "lvAlertas";
-            this.lvAlertas.Size = new System.Drawing.Size(650, 201);
+            this.lvAlertas.Size = new System.Drawing.Size(703, 311);
             this.lvAlertas.TabIndex = 0;
             this.lvAlertas.UseCompatibleStateImageBehavior = false;
             this.lvAlertas.View = System.Windows.Forms.View.List;
@@ -234,12 +234,13 @@ namespace ConroleAcesso.Forms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(684, 451);
+            this.ClientSize = new System.Drawing.Size(733, 560);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmRegistrarEntradaSaida";
+            this.Text = "Registrar Saida e Entrada";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmRegistrarEntradaSaida_FormClosing);
             this.Load += new System.EventHandler(this.frmRegistrarEntradaSaida_Load);
             this.groupBox1.ResumeLayout(false);

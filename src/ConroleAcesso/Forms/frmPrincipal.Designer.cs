@@ -37,7 +37,7 @@ namespace ConroleAcesso.Forms
             // 
             this.btnSincronizar.Location = new System.Drawing.Point(12, 12);
             this.btnSincronizar.Name = "btnSincronizar";
-            this.btnSincronizar.Size = new System.Drawing.Size(121, 67);
+            this.btnSincronizar.Size = new System.Drawing.Size(196, 94);
             this.btnSincronizar.TabIndex = 0;
             this.btnSincronizar.Text = "Sincronizar";
             this.btnSincronizar.UseVisualStyleBackColor = true;
@@ -45,9 +45,9 @@ namespace ConroleAcesso.Forms
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(186, 12);
+            this.button1.Location = new System.Drawing.Point(214, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(121, 67);
+            this.button1.Size = new System.Drawing.Size(216, 94);
             this.button1.TabIndex = 1;
             this.button1.Text = "Controle";
             this.button1.UseVisualStyleBackColor = true;
@@ -57,10 +57,11 @@ namespace ConroleAcesso.Forms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(326, 90);
+            this.ClientSize = new System.Drawing.Size(442, 118);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnSincronizar);
             this.Name = "frmPrincipal";
+            this.Text = "Menu";
             this.ResumeLayout(false);
 
         }

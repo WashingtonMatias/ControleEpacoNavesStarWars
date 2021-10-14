@@ -65,7 +65,7 @@ namespace ConroleAcesso.Forms
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(9, 221);
+            this.label2.Location = new System.Drawing.Point(8, 257);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 15);
             this.label2.TabIndex = 3;
@@ -73,7 +73,7 @@ namespace ConroleAcesso.Forms
             // 
             // txtNomePiloto
             // 
-            this.txtNomePiloto.Location = new System.Drawing.Point(56, 218);
+            this.txtNomePiloto.Location = new System.Drawing.Point(55, 254);
             this.txtNomePiloto.Name = "txtNomePiloto";
             this.txtNomePiloto.Size = new System.Drawing.Size(620, 23);
             this.txtNomePiloto.TabIndex = 2;
@@ -83,10 +83,10 @@ namespace ConroleAcesso.Forms
             this.dgvNaves.AllowUserToAddRows = false;
             this.dgvNaves.AllowUserToDeleteRows = false;
             this.dgvNaves.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvNaves.Location = new System.Drawing.Point(56, 41);
+            this.dgvNaves.Location = new System.Drawing.Point(55, 41);
             this.dgvNaves.Name = "dgvNaves";
             this.dgvNaves.RowTemplate.Height = 25;
-            this.dgvNaves.Size = new System.Drawing.Size(693, 171);
+            this.dgvNaves.Size = new System.Drawing.Size(759, 206);
             this.dgvNaves.TabIndex = 4;
             // 
             // dgvPilotos
@@ -94,17 +94,17 @@ namespace ConroleAcesso.Forms
             this.dgvPilotos.AllowUserToAddRows = false;
             this.dgvPilotos.AllowUserToDeleteRows = false;
             this.dgvPilotos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPilotos.Location = new System.Drawing.Point(56, 247);
+            this.dgvPilotos.Location = new System.Drawing.Point(56, 283);
             this.dgvPilotos.Name = "dgvPilotos";
             this.dgvPilotos.RowTemplate.Height = 25;
-            this.dgvPilotos.Size = new System.Drawing.Size(693, 171);
+            this.dgvPilotos.Size = new System.Drawing.Size(759, 198);
             this.dgvPilotos.TabIndex = 5;
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.rdbSaindo);
             this.groupBox1.Controls.Add(this.rdbChegando);
-            this.groupBox1.Location = new System.Drawing.Point(56, 425);
+            this.groupBox1.Location = new System.Drawing.Point(56, 491);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(257, 37);
             this.groupBox1.TabIndex = 6;
@@ -134,9 +134,9 @@ namespace ConroleAcesso.Forms
             // 
             // btnAvancar
             // 
-            this.btnAvancar.Location = new System.Drawing.Point(651, 435);
+            this.btnAvancar.Location = new System.Drawing.Point(748, 505);
             this.btnAvancar.Name = "btnAvancar";
-            this.btnAvancar.Size = new System.Drawing.Size(75, 23);
+            this.btnAvancar.Size = new System.Drawing.Size(66, 23);
             this.btnAvancar.TabIndex = 7;
             this.btnAvancar.Text = "Avançar";
             this.btnAvancar.UseVisualStyleBackColor = true;
@@ -144,7 +144,7 @@ namespace ConroleAcesso.Forms
             // 
             // btnBuscarNave
             // 
-            this.btnBuscarNave.Location = new System.Drawing.Point(682, 11);
+            this.btnBuscarNave.Location = new System.Drawing.Point(748, 11);
             this.btnBuscarNave.Name = "btnBuscarNave";
             this.btnBuscarNave.Size = new System.Drawing.Size(67, 23);
             this.btnBuscarNave.TabIndex = 8;
@@ -154,7 +154,7 @@ namespace ConroleAcesso.Forms
             // 
             // btnBuscarPiloto
             // 
-            this.btnBuscarPiloto.Location = new System.Drawing.Point(682, 217);
+            this.btnBuscarPiloto.Location = new System.Drawing.Point(747, 253);
             this.btnBuscarPiloto.Name = "btnBuscarPiloto";
             this.btnBuscarPiloto.Size = new System.Drawing.Size(67, 23);
             this.btnBuscarPiloto.TabIndex = 9;
@@ -166,7 +166,7 @@ namespace ConroleAcesso.Forms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(763, 474);
+            this.ClientSize = new System.Drawing.Size(824, 537);
             this.Controls.Add(this.btnBuscarPiloto);
             this.Controls.Add(this.btnBuscarNave);
             this.Controls.Add(this.btnAvancar);
@@ -178,6 +178,7 @@ namespace ConroleAcesso.Forms
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtNomeNave);
             this.Name = "frmControleNaves";
+            this.Text = "Controle";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmControleNaves_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.dgvNaves)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPilotos)).EndInit();
